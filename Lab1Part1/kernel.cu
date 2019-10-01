@@ -62,8 +62,8 @@ int main()
 
 	union pixel *imageData;
 	unsigned width, height;
-	const char* inputFilePath = "C:\\capture.png";
-	const char* outputFilePath = "C:\\rectified.png";
+	const char* inputFilePath = "H:\\goodfellas.png";
+	const char* outputFilePath = "H:\\rectified.png";
 
 	unsigned returnCode = lodepng_decode24_file((unsigned char **)&imageData, &width, &height, inputFilePath);
 	if (returnCode > 0) {
